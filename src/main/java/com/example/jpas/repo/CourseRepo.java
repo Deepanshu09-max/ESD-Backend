@@ -1,6 +1,6 @@
 package com.example.jpas.repo;
 
-import com.example.jpas.course;
+import com.example.jpas.entity.course;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

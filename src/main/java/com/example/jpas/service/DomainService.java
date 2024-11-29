@@ -1,7 +1,7 @@
 package com.example.jpas.service;
 
 
-import com.example.jpas.domain;
+import com.example.jpas.entity.domain;
 import com.example.jpas.repo.DomainRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.example.jpas.controller;
 
 import com.example.jpas.service.StudentService;
-import com.example.jpas.student;
+import com.example.jpas.entity.student;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

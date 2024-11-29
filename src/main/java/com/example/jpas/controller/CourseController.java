@@ -1,12 +1,11 @@
 package com.example.jpas.controller;
-import com.example.jpas.faculty;
-import com.example.jpas.schedule;
-import com.example.jpas.student;
+import com.example.jpas.entity.faculty;
+import com.example.jpas.entity.schedule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.*;
-import com.example.jpas.course;
+import com.example.jpas.entity.course;
 import com.example.jpas.service.CourseService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

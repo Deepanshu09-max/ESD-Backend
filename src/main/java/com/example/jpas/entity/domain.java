@@ -1,4 +1,4 @@
-package com.example.jpas;
+package com.example.jpas.entity;
 
 import jakarta.persistence.*;
 

@@ -1,9 +1,8 @@
-package com.example.jpas;
+package com.example.jpas.entity;
 
 import jakarta.persistence.*;
 
 import java.util.List;
-import java.util.Set;
 
 @Entity
 public class student {

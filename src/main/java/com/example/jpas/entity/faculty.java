@@ -1,4 +1,4 @@
-package com.example.jpas;
+package com.example.jpas.entity;
 
 import jakarta.persistence.*;
 
@@ -46,5 +46,5 @@ public class faculty {
         this.f_email = f_email;
     }
     @OneToOne(mappedBy = "faculty")
-    private course course;
+    private com.example.jpas.entity.course course;
 }

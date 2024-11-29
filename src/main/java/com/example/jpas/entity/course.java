@@ -1,4 +1,4 @@
-package com.example.jpas;
+package com.example.jpas.entity;
 
 import jakarta.persistence.*;
 import org.springframework.data.annotation.Id;
@@ -66,11 +66,11 @@ public class course {
 
     @OneToOne
     @JoinColumn(name = "faculty_id")
-    private faculty faculty;
+    private com.example.jpas.entity.faculty faculty;
     @ManyToMany(mappedBy = "courses")
     private List<domain> domains;
     @OneToOne(mappedBy = "course")
-    private schedule schedule;
+    private com.example.jpas.entity.schedule schedule;
     @ManyToMany(mappedBy = "courses")
     private List<student> students;
 

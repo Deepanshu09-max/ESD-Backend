@@ -1,6 +1,6 @@
 package com.example.jpas.controller;
 
-import com.example.jpas.domain;
+import com.example.jpas.entity.domain;
 import com.example.jpas.service.DomainService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

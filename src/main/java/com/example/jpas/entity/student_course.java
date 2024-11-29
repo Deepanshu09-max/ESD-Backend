@@ -1,4 +1,4 @@
-package com.example.jpas;
+package com.example.jpas.entity;
 
 
 import jakarta.persistence.*;
@@ -20,11 +20,11 @@ import jakarta.persistence.*;
 
     @ManyToOne
         @JoinColumn(name = "student_id")
-        private student student;
+        private com.example.jpas.entity.student student;
 
         @ManyToOne
         @JoinColumn(name = "course_id")
-        private course course;
+        private com.example.jpas.entity.course course;
 
         // Constructors, getters, and setters
     }

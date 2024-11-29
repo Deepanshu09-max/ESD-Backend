@@ -1,6 +1,6 @@
 package com.example.jpas.repo;
 
-import com.example.jpas.student;
+import com.example.jpas.entity.student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

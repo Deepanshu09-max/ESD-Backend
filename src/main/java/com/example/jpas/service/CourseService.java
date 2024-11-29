@@ -1,5 +1,7 @@
 package com.example.jpas.service;
-import com.example.jpas.*;
+import com.example.jpas.entity.course;
+import com.example.jpas.entity.faculty;
+import com.example.jpas.entity.schedule;
 import com.example.jpas.repo.CourseRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

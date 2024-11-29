@@ -4,7 +4,7 @@ package com.example.jpas.service;
 import com.example.jpas.repo.ScheduleRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.jpas.schedule;
+import com.example.jpas.entity.schedule;
 import java.util.Optional;
 
 @Service

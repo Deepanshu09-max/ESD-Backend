@@ -1,4 +1,4 @@
-package com.example.jpas;
+package com.example.jpas.entity;
 
 import jakarta.persistence.*;
 
@@ -57,7 +57,7 @@ public class schedule {
     }
     @OneToOne
     @JoinColumn(name = "course_id")
-    private course course;
+    private com.example.jpas.entity.course course;
 
 
 }

@@ -1,9 +1,9 @@
 package com.example.jpas.service;
-import com.example.jpas.course;
+import com.example.jpas.entity.course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.example.jpas.repo.DomainIdRepo;
-import com.example.jpas.Domain_course;
+import com.example.jpas.entity.Domain_course;
 import java.util.List;
 import java.util.stream.Collectors;
 
